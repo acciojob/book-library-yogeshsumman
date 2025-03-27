@@ -20,21 +20,39 @@ h1 {
 
 .book {
     background-color: #fff;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    width: 250px;
+    display: block;
+    width: 80%;
+    max-width: 300px;
     text-align: center;
 }
 
 .book img {
     width: 100%;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
 h2 {
     font-size: 18px;
-    margin: 10px 0
+    margin: 10px 0;
+}
+
+.author {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.price {
+    background-color: rgb(46, 204, 113);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
